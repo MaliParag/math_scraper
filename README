@@ -1,3 +1,18 @@
+*********Installation**********
+Make sure Maven is installed.
+
+cd to the SymbolScraper directory 
+
+Execute following command 
+
+$ mvn install
+
+'target' folder will be created with a jar file 'SymbolScraper-0.0.1-jar-with-dependencies.jar'
+
+Execute following command to run the application. Put pdf files in the input directory. Output will be generated in the </OutputDirectory>
+
+$ java -jar SymbolScraper.jar -batch -p </InputDirectory> </OutputDirectory> 
+
 *************Usage*************
 Please follow the instructions 
 
@@ -26,3 +41,4 @@ Parameters :-
 
 Example : - 
 	java -jar SymbolScraper.jar -batch -p </InputDirectory> </OutputDirectory> 
+        
