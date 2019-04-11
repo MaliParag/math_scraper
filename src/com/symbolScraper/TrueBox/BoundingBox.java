@@ -1,4 +1,4 @@
-﻿package com.symbolScraper.TrueBox;
+package com.symbolScraper.TrueBox;
 
 import java.awt.Shape;
 import java.awt.geom.Area;
@@ -38,7 +38,7 @@ import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
-class BoundingBox extends PDFTextStripper {
+public class BoundingBox extends PDFTextStripper {
 
     int pageNum;
     PageStructure currentPage;
